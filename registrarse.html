@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/foto 1.png" class="imageninicio">
+    <table id="tabla1">
+        <!-- ENLACES QUE ME REDICCIONARAN --> 
+        <div>
+            <td class="columna1" bgcolor="#F7CF04">
+                <a href="index.html" class="textoref">
+                        Inicio               
+                </a>               
+            </td>        
+        <td class="columna1" bgcolor="#09C4F1">
+            <a href="tienda.html" class="textoref">
+                    Tiendas
+            
+            </a>
+            
+        </td>
+        <td class="columna1" bgcolor="#047EF7"> 
+            <a href="registrarse.html" class="textoref">
+                Registrarse
+            </a>            
+        </td>
+        </div>     
+    </table>
+    <br>
+    <form>
+        <h2 id="hoja2registrarse">
+            Registrarse
+        </h2>
+        <!-- Nombre placeholder para borrar texto xd--> 
+        <p>
+            <label for="txt_nombre" class="configlabel">Nombre de Usuario</label>
+            <br>
+            <br>
+            <input type="text" name="txt_nombre" id="txt_nombre" class="nombreinput" placeholder="Escriba sus nombres">
+        </p>
+        <!-- PASSWORD--> 
+        <p>
+            <label for="txt_pass" class="configlabel">Contraseña</label>
+            <br>
+            <br>
+            <input type="password" name="txt_pass" id="txt_pass" class="nombreinput" placeholder="Escriba su contraseña">
+        </p>
+         <!-- CONFIRM PASSWORD--> 
+         <p>
+            <label for="confirm_pass" class="configlabel">Confirmar contraseña</label>
+            <br>
+            <br>
+            <input type="password" name="confirm_pass" id="confirm_pass" class="nombreinput" placeholder="Confirmar contraseña">
+        </p>
+        <!-- Nombre placeholder para borrar texto xd--> 
+        <p>
+            <label for="txt_apellidos" class="configlabel">Apellidos</label>
+            <br>
+            <br>
+            <input type="text" name="txt_apellidos" id="txt_apellidos" class="nombreinput" placeholder="Escriba sus apellidos">
+        </p>
+        <p>
+            <label for="opt_genero" class="configlabel">Sexo</label>
+            <br>
+            <br>
+            <input type="radio" name="opt_genero" id="opt_genero_h">
+            <label for="opt_genero">Hombre</label>
+
+            <input type="radio" name="opt_genero" id="opt_genero_m">
+            <label for="opt_genero">Mujer</label>
+        </p>
+        <p>
+            <label for="txt_fecha" class="configlabel">Fecha de nacimiento</label>
+            <br>
+            <br>
+            <input type="date" name="txt_fecha" id="txt_fecha" class="configfecha">
+        </p>
+        <p>
+            <label for="lst_nivel_acad" class="configlabel" >Nacionalidad</label>
+            <br>
+            <br>
+            <select name="lst_nivel_acad" class="configlista">
+                <option value="1">Guatemalteco</option>
+                <option value="2">Salvadoreño</option>
+                <option value="3">Hondureño</option>
+                <option value="4">Nicaraguense</option>
+                <option value="5">Costarricense</option>
+                <option value="6">Panameño</option>
+
+            </select>
+        </p>  
+        
+        <br>
+        <p align="center">
+            <a href="index.html" class="button2">Registrarse</a>
+        </p>
+        <br>
+    </form>
+
+    <br>   
+         
+    <footer>
+        <br>
+        PBX: 3224-6589 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirección: Mateo Flores 7-51, Calle del Estadio, Cdad. de Guatemala 01005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Carnet: 2023-023346&nbsp;Nombre: Axel Javier Guadalupe Alvarez Felipe
+    </footer>
+</body>
+</html>

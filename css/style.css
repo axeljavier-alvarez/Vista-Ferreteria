@@ -1,0 +1,284 @@
+
+
+.columna1 {
+
+    width: 640px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.columna6 {
+    width: 670px;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.columna7 {
+    font-size: 30px;
+    color: black;
+}
+
+.textoref {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+/* IMAGENES CSS */
+.imageninicio {
+    width: 100%;
+    height: 270px;
+}
+
+.imagendos {
+    width: 500px;
+
+}
+
+.imagentres {
+    width: 300px;
+}
+
+.imagencuatro {
+    width: 300px;
+}
+
+.imagencinco {
+    width: 500px;
+}
+
+.pagoimg {
+    width: 25%;
+}
+
+/* IMAGENES DEL CATALOGO */
+.imagencatalogo1 {
+    width: 50%;
+    height: 70%;
+}
+
+.imagencatalogo2 {
+    width: 46%;
+    height: 70%;
+}
+
+.imagencatalogo3 {
+    width: 105%;
+    height: 80%;
+}
+
+.imagencatalogo4 {
+    width: 50%;
+    height: 70%;
+}
+
+.imagendescripcion1 {
+    width: 60%;
+}
+
+
+/* CONFIGURACION DE TABLAS */
+table {
+    width: 100%;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+#tabla1{
+    margin-top: -4px;
+}
+
+#tabla2{
+    border-width: 10px;
+    border-color: black;
+}
+
+#hoja2productos {
+    text-align: center;
+}
+
+#hoja2tienda {
+    text-align: left;
+}
+
+#hoja1informacion {
+    text-align: center;
+}
+
+.columna2{
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    border-width: 10px;
+}
+
+.columna3 {
+    background-color: #C9FBF7;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+}
+
+.columna4 {
+    background-color: #C9FBF7;
+    width: 400px;
+    height: 200px;
+    text-align: center; 
+}
+
+.fila4{
+    width: 200px;
+}
+
+/* CONFIGURACION DE LISTAS XD */
+.lista1 {
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+/* configuracion de elementos*/
+a {
+    text-decoration: none;
+}
+
+body {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+footer {
+    background-color: darkblue;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* CONFIGURACION DEL FORMULARIO */
+#hoja2registrarse {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+.nombreinput {
+    width: 690px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.configfecha {
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.configlabel {
+    font-size: 20px;
+}
+
+.configlista {
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.configurarboton {
+    width: 120px;
+}
+
+
+
+/* CSS DEL CATALOGO DE PRECIOS */
+#hoja1 {
+    text-align: left;
+}
+
+#hoja1tienda {
+    text-align: center;
+}
+
+.col{
+    float: left;
+    width: 20%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+
+.price-box{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+  }
+  
+  .price-box:hover, .price-box.best{
+    box-shadow: 0 10px 15px 0 #000;
+  }
+  
+  .price-box .header{
+    background-color: darkblue;
+    color: #fff;
+    font-size: 25px;
+  }
+
+
+  .price-box .header.header-green{
+    background-color: darkblue;
+  }
+  
+  .price-box li{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+  
+  .price-box .emph{
+    background-color: #f4f4f4;
+    font-size: 20px;
+  }
+  
+  .button{
+    background-color: #09C4F1;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .button2{
+    background-color: #09C4F1;
+    border: none;
+    color: #fff;
+    padding: 18px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+
+  }
+
+
+  .button2:hover {
+    background-color: #04468A;
+    color:#bbe1fa;
+}
+
+  
